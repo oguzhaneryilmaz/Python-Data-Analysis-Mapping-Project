@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.7.4
+- https://www.phpmyadmin.net
+-
+- Anamakine: 127.0.0.1
+- Üretim Zamanı: 07 Nis 2018, 09:52:49
+- Sunucu sürümü: 10.1.30-MariaDB
+- PHP Sürümü: 5.6.33
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="adres" collation="utf8_turkish_ci" charset="utf8">
+            <pma:table name="sehir">
+                CREATE TABLE `sehir` (
+                  `sehir_id` int(2) NOT NULL AUTO_INCREMENT,
+                  `sehir_title` varchar(255) COLLATE utf8_turkish_ci NOT NULL,
+                  `sehir_key` int(11) NOT NULL,
+                  PRIMARY KEY (`sehir_id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=82 DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Veritabanı: 'adres'
+    -->
+    <database name="adres">
+        <!-- Tablo sehir -->
+        <table name="sehir">
+            <column name="sehir_id">1</column>
+            <column name="sehir_title">İSTANBUL</column>
+            <column name="sehir_key">34</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">2</column>
+            <column name="sehir_title">ANKARA</column>
+            <column name="sehir_key">6</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">3</column>
+            <column name="sehir_title">İZMİR</column>
+            <column name="sehir_key">35</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">4</column>
+            <column name="sehir_title">BURSA</column>
+            <column name="sehir_key">16</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">5</column>
+            <column name="sehir_title">ADANA</column>
+            <column name="sehir_key">1</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">6</column>
+            <column name="sehir_title">ADIYAMAN</column>
+            <column name="sehir_key">2</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">7</column>
+            <column name="sehir_title">AFYONKARAHİSAR</column>
+            <column name="sehir_key">3</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">8</column>
+            <column name="sehir_title">AĞRI</column>
+            <column name="sehir_key">4</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">9</column>
+            <column name="sehir_title">AKSARAY</column>
+            <column name="sehir_key">68</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">10</column>
+            <column name="sehir_title">AMASYA</column>
+            <column name="sehir_key">5</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">11</column>
+            <column name="sehir_title">ANTALYA</column>
+            <column name="sehir_key">7</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">12</column>
+            <column name="sehir_title">ARDAHAN</column>
+            <column name="sehir_key">75</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">13</column>
+            <column name="sehir_title">ARTVİN</column>
+            <column name="sehir_key">8</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">14</column>
+            <column name="sehir_title">AYDIN</column>
+            <column name="sehir_key">9</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">15</column>
+            <column name="sehir_title">BALIKESİR</column>
+            <column name="sehir_key">10</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">16</column>
+            <column name="sehir_title">BARTIN</column>
+            <column name="sehir_key">74</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">17</column>
+            <column name="sehir_title">BATMAN</column>
+            <column name="sehir_key">72</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">18</column>
+            <column name="sehir_title">BAYBURT</column>
+            <column name="sehir_key">69</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">19</column>
+            <column name="sehir_title">BİLECİK</column>
+            <column name="sehir_key">11</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">20</column>
+            <column name="sehir_title">BİNGÖL</column>
+            <column name="sehir_key">12</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">21</column>
+            <column name="sehir_title">BİTLİS</column>
+            <column name="sehir_key">13</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">22</column>
+            <column name="sehir_title">BOLU</column>
+            <column name="sehir_key">14</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">23</column>
+            <column name="sehir_title">BURDUR</column>
+            <column name="sehir_key">15</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">24</column>
+            <column name="sehir_title">ÇANAKKALE</column>
+            <column name="sehir_key">17</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">25</column>
+            <column name="sehir_title">ÇANKIRI</column>
+            <column name="sehir_key">18</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">26</column>
+            <column name="sehir_title">ÇORUM</column>
+            <column name="sehir_key">19</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">27</column>
+            <column name="sehir_title">DENİZLİ</column>
+            <column name="sehir_key">20</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">28</column>
+            <column name="sehir_title">DİYARBAKIR</column>
+            <column name="sehir_key">21</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">29</column>
+            <column name="sehir_title">KOCAELİ</column>
+            <column name="sehir_key">41</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">30</column>
+            <column name="sehir_title">KONYA</column>
+            <column name="sehir_key">42</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">31</column>
+            <column name="sehir_title">KÜTAHYA</column>
+            <column name="sehir_key">43</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">32</column>
+            <column name="sehir_title">MALATYA</column>
+            <column name="sehir_key">44</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">33</column>
+            <column name="sehir_title">MANİSA</column>
+            <column name="sehir_key">45</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">34</column>
+            <column name="sehir_title">MARDİN</column>
+            <column name="sehir_key">47</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">35</column>
+            <column name="sehir_title">MERSİN</column>
+            <column name="sehir_key">33</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">36</column>
+            <column name="sehir_title">MUĞLA</column>
+            <column name="sehir_key">48</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">37</column>
+            <column name="sehir_title">MUŞ</column>
+            <column name="sehir_key">49</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">38</column>
+            <column name="sehir_title">NEVŞEHİR</column>
+            <column name="sehir_key">50</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">39</column>
+            <column name="sehir_title">NİĞDE</column>
+            <column name="sehir_key">51</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">40</column>
+            <column name="sehir_title">ORDU</column>
+            <column name="sehir_key">52</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">41</column>
+            <column name="sehir_title">OSMANİYE</column>
+            <column name="sehir_key">80</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">42</column>
+            <column name="sehir_title">RİZE</column>
+            <column name="sehir_key">53</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">43</column>
+            <column name="sehir_title">SAKARYA</column>
+            <column name="sehir_key">54</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">44</column>
+            <column name="sehir_title">SAMSUN</column>
+            <column name="sehir_key">55</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">45</column>
+            <column name="sehir_title">SİİRT</column>
+            <column name="sehir_key">56</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">46</column>
+            <column name="sehir_title">SİNOP</column>
+            <column name="sehir_key">57</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">47</column>
+            <column name="sehir_title">ŞIRNAK</column>
+            <column name="sehir_key">73</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">48</column>
+            <column name="sehir_title">SİVAS</column>
+            <column name="sehir_key">58</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">49</column>
+            <column name="sehir_title">TEKİRDAĞ</column>
+            <column name="sehir_key">59</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">50</column>
+            <column name="sehir_title">TOKAT</column>
+            <column name="sehir_key">60</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">51</column>
+            <column name="sehir_title">TRABZON</column>
+            <column name="sehir_key">61</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">52</column>
+            <column name="sehir_title">TUNCELİ</column>
+            <column name="sehir_key">62</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">53</column>
+            <column name="sehir_title">ŞANLIURFA</column>
+            <column name="sehir_key">63</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">54</column>
+            <column name="sehir_title">UŞAK</column>
+            <column name="sehir_key">64</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">55</column>
+            <column name="sehir_title">VAN</column>
+            <column name="sehir_key">65</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">56</column>
+            <column name="sehir_title">YALOVA</column>
+            <column name="sehir_key">77</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">57</column>
+            <column name="sehir_title">YOZGAT</column>
+            <column name="sehir_key">66</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">58</column>
+            <column name="sehir_title">ZONGULDAK</column>
+            <column name="sehir_key">67</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">59</column>
+            <column name="sehir_title">DÜZCE</column>
+            <column name="sehir_key">81</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">60</column>
+            <column name="sehir_title">EDİRNE</column>
+            <column name="sehir_key">22</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">61</column>
+            <column name="sehir_title">ELAZIĞ</column>
+            <column name="sehir_key">23</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">62</column>
+            <column name="sehir_title">ERZİNCAN</column>
+            <column name="sehir_key">24</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">63</column>
+            <column name="sehir_title">ERZURUM</column>
+            <column name="sehir_key">25</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">64</column>
+            <column name="sehir_title">ESKİŞEHİR</column>
+            <column name="sehir_key">26</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">65</column>
+            <column name="sehir_title">GAZİANTEP</column>
+            <column name="sehir_key">27</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">66</column>
+            <column name="sehir_title">GİRESUN</column>
+            <column name="sehir_key">28</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">67</column>
+            <column name="sehir_title">GÜMÜŞHANE</column>
+            <column name="sehir_key">29</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">68</column>
+            <column name="sehir_title">HAKKARİ</column>
+            <column name="sehir_key">30</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">69</column>
+            <column name="sehir_title">HATAY</column>
+            <column name="sehir_key">31</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">70</column>
+            <column name="sehir_title">IĞDIR</column>
+            <column name="sehir_key">76</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">71</column>
+            <column name="sehir_title">ISPARTA</column>
+            <column name="sehir_key">32</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">72</column>
+            <column name="sehir_title">KAHRAMANMARAŞ</column>
+            <column name="sehir_key">46</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">73</column>
+            <column name="sehir_title">KARABÜK</column>
+            <column name="sehir_key">78</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">74</column>
+            <column name="sehir_title">KARAMAN</column>
+            <column name="sehir_key">70</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">75</column>
+            <column name="sehir_title">KARS</column>
+            <column name="sehir_key">36</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">76</column>
+            <column name="sehir_title">KASTAMONU</column>
+            <column name="sehir_key">37</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">77</column>
+            <column name="sehir_title">KAYSERİ</column>
+            <column name="sehir_key">38</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">78</column>
+            <column name="sehir_title">KİLİS</column>
+            <column name="sehir_key">79</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">79</column>
+            <column name="sehir_title">KIRIKKALE</column>
+            <column name="sehir_key">71</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">80</column>
+            <column name="sehir_title">KIRKLARELİ</column>
+            <column name="sehir_key">39</column>
+        </table>
+        <table name="sehir">
+            <column name="sehir_id">81</column>
+            <column name="sehir_title">KIRŞEHİR</column>
+            <column name="sehir_key">40</column>
+        </table>
+    </database>
+</pma_xml_export>
